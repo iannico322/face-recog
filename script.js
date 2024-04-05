@@ -1,7 +1,7 @@
 const video = document.getElementById("video");
 const names = document.querySelector(".names")
 
-const MODEL_URL = "/models";
+const MODEL_URL = "/face-recog/models";
 const LABELS = ["Nico", "Mark","Angel","Ryan"];
 const INTERVAL_MS = 100;
 let isStopped = false;
